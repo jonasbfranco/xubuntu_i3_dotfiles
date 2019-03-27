@@ -19,7 +19,7 @@
 > 09&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;popcorn  
 > 10&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;telegram  
 > 11&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;mailspring  
-> 12&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;neofetch 
+> 12&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;neofetch   
 > 13&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;sublime-text  
 > 14&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;visual studio  
 
