@@ -53,7 +53,7 @@
 > https://github.com/powerline/powerline  
 
 > * $sudo pacman -S powerline  
-> * $sudo apt instal powerline  
+> * $sudo apt install powerline  
 > * $sudo mkdir /usr/local/bin/powerline  
 > * $sudo git clone https://github.com/powerline/powerline.git /usr/local/bin/powerline  
 > * $sudo wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf -O /usr/share/fonts/PowerlineSymbols.otf  
