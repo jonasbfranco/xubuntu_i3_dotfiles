@@ -45,7 +45,7 @@
 
 #### ⚙ 1° Como utilizar meus arquivos 
 > Baixe os arquivos 
-* 1 . [Baixe os arquivos ](https://github.com/jonasbfranco/dotfiles_manjaro_i3.git) git clone https://github.com/jonasbfranco/dotfiles_manjaro_i3.git   
+* 1 . [Baixe os arquivos ](https://github.com/jonasbfranco/xubuntu_i3_dotfiles.git) git clone https://github.com/jonasbfranco/xubuntu_i3_dotfiles.git   
 * 2 . Extraia os arquivos em seus respectivos locais
 
 
