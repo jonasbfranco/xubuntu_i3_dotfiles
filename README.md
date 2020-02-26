@@ -5,7 +5,7 @@
 <p align='center'><br> Dotfiles Xubuntu i3 </p>
 
 
-![Print of Desktop](https://github.com/jonasbfranco/xubuntu_i3_dotfiles/blob/master/desktop.png)
+![Print of Desktop](https://raw.github.com/jonasbfranco/xubuntu_i3_dotfiles/master/desktop.png)
 
 ### Programas utilizados
 > 01&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;cava  
@@ -70,7 +70,7 @@
 
 > * Spotify (instalation = $sudo snap install spotify)
 
-![Print of Desktop - Spotify](https://github.com/jonasbfranco/xubuntu_i3_dotfiles/blob/master/spotify.png)
+![Print of Desktop - Spotify](https://raw.github.com/jonasbfranco/xubuntu_i3_dotfiles/master/spotify.png)
 
 
 
