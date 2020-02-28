@@ -110,6 +110,49 @@ sudo apt-get install libfftw3-dev libasound2-dev libncursesw5-dev libpulse-dev l
 
 
 
+### Instalando feh
+
+sudo apt install feh
+
+Instalação
+Para instalar o feh, basta usar seu gerenciador de pacotes, exemplo pro APT: sudo apt install feh
+
+Utilizando
+Quando você roda o feh feh caminho/para/imagem.jpg pela primeira vez, ele cria automágicamente um arquivo Shell Script no seu diretório pessoal com o nome .fehbg , ou seja, pra vc reutilizar basta rodar esse script.
+
+Isso é interessante quando você deseja manter o papel de parede que você definiu sempre presente, sem precisar ficar rodando toda hora o mesmo comando, essa é a técnica usada para arquivos do [i3wm](echo 'exec $HOME/.fehbg' >> ~/.config/i3/config) , para o bspwm e até mesmo pro seu ~/.xinitc, ~/.xprofile, ~/.bashrc, ~/.profile e outros se você utilizá-los.
+
+
+Exemplo do conteúdo do meu ~/.fehbg , ou seja, possui o caminho do meu último comando executado:
+
+cat ~/.fehbg
+
+#!/bin/sh
+feh --bg-scale '/home/marcos/Imagens/wallpapers/terminalroot-wallpaper-089.jpg'
+
+Lista de opções via linha de comando
+A opção que eu mais uso que é justamente que tem no exemplo do meu ~/.fehbg citado acima é:
+
+feh --bg-scale caminho/para/imagem.png - Essa opçao coloca o arquivo em segundo plano sem repeti-lo, cortando coisas ou usando bordas. Mas a proporção também não é preservada.
+Outras opções:
+
+feh -g 640x480 -d -S nome-da-minha-imagem Imagens/ - Procura imagens no diretório indicado (Nesse caso em ~/Imagens/) e automáticamente abre ela na proporção 640x480 como o nome nome-da-minha-imagem
+--no-fehbg - Desabilita por padrão a criação ou alteração do arquivo ~/.fehbg
+--bg-fill - preserva a proporção, ampliando a imagem até que ela caiba. Uma parte horizontal ou vertical da imagem será cortada. É semelhante à opção --bg-scale , a única diferença é que com scale mantém a proporção da imagem.
+--bg-tile - Mosaico , repete a imagem, caso ela seja muito pequena para a tela.
+
+ 
+--bg-center - Centraliza a imagem em segundo plano. Se for muito pequena, será cercado por uma borda, conforme especificado por --image-bg;
+--randomize - Gera papéis de paredes randômicos para seu Desktop, geralmente usa em conjunto com alguma parâmetro –bg-[tipo] , exemoplo: feh --randomize --bg-scale ~/Imagens/wallpapers/*.
+--recursive - Uma imagem para cada área de trabalho do seu Desktop, randômicamente, ou seja, usa em conjunto com a opção --randomize, exemplo: feh --recursive --randomize --bg-scale ~/Imagens/wallpapers/*
+
+Além diversas de outras possibilidades bem bacanas que podem ser consultadas dando uma olhada mais detalhada ainda no manual: man feh , se você rodar feh --help ele vai mandar você ver o manual! =)
+
+
+
+
+
+
 #### ⚙ Creditos Terminal Root
 [Link dos Comandos](https://terminalroot.com.br/2019/01/ubuntu-i3gaps-albert-cava-polybar.html "Site Terminal Root")
 
