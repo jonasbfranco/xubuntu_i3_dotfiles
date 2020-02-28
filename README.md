@@ -69,6 +69,7 @@
 > * tty-clock -C7
 > * neofetch [Link](https://github.com/dylanaraps/neofetch)
 
+![Print of Desktop](https://raw.github.com/jonasbfranco/xubuntu_i3_dotfiles/master/desktop.png)
 
 > * Spotify (instalation = $sudo snap install spotify)
 
@@ -111,7 +112,9 @@ sudo apt-get install libfftw3-dev libasound2-dev libncursesw5-dev libpulse-dev l
 
 
 #### ⚙ Creditos Terminal Root
-[Link dos Comandos](https://terminalroot.com.br/2019/01/ubuntu-i3gaps-albert-cava-polybar.html)
+[Link dos Comandos](https://terminalroot.com.br/2019/01/ubuntu-i3gaps-albert-cava-polybar.html "Site Terminal Root")
+A [link](http://example.com "Title").
+Aqui tem uma [página com os códigos mais frequentes](https://en.support.wordprss.com/markdown-quick-reference/) do Markdown
 
 
 
