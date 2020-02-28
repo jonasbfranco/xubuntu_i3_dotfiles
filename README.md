@@ -22,6 +22,8 @@
 > 12&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;neofetch   
 > 13&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;sublime-text  
 > 14&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;visual studio  
+> 14&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;lxappearance
+
 
 
 ### Configuração dos Workspaces
@@ -65,7 +67,7 @@
 
 > * cava
 > * tty-clock -C7
-> * neofetch
+> * neofetch (https://github.com/dylanaraps/neofetch)
 
 
 > * Spotify (instalation = $sudo snap install spotify)
