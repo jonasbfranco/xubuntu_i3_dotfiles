@@ -1,3 +1,5 @@
+[go](http://stackoverflow.com){:target="_blank" rel="noopener"}
+
 <p align='center'><b>Repositório de:</b> Jonas B. Franco | @jonasbfranco<br>
 <b>Email:</b> <a href='mailto:jonasbfranco@gmail.com'>jonasbfranco@gmail.com</a><br>
 <b>Site:</b> <a href='https://jonasbfranco.github.io/'>Navegar pelo site (em construcao)</a></p>
