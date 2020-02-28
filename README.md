@@ -1,11 +1,8 @@
-[go](http://stackoverflow.com){:target="_blank" rel="noopener"}
-
 <p align='center'><b>Repositório de:</b> Jonas B. Franco | @jonasbfranco<br>
 <b>Email:</b> <a href='mailto:jonasbfranco@gmail.com'>jonasbfranco@gmail.com</a><br>
 <b>Site:</b> <a href='https://jonasbfranco.github.io/'>Navegar pelo site (em construcao)</a></p>
 
 <p align='center'><br> Dotfiles Xubuntu i3 </p>
-
 
 ![Print of Desktop](https://raw.github.com/jonasbfranco/xubuntu_i3_dotfiles/master/desktop.png)
 
@@ -24,7 +21,7 @@
 > 12&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;neofetch   
 > 13&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;sublime-text  
 > 14&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;visual studio  
-> 14&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;lxappearance
+> 15&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;lxappearance
 
 
 
@@ -114,11 +111,7 @@ sudo apt-get install libfftw3-dev libasound2-dev libncursesw5-dev libpulse-dev l
 
 
 #### ⚙ Creditos Terminal Root
-[Link dos Comandos](https://terminalroot.com.br/2019/01/ubuntu-i3gaps-albert-cava-polybar.html "Site Terminal Root"){:target="_blank"}
-A [link](http://example.com "Title").
-Aqui tem uma [página com os códigos mais frequentes](https://en.support.wordprss.com/markdown-quick-reference/) do Markdown
-
-
+[Link dos Comandos](https://terminalroot.com.br/2019/01/ubuntu-i3gaps-albert-cava-polybar.html "Site Terminal Root")
 
 
 
