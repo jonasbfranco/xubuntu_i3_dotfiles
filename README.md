@@ -44,13 +44,14 @@
 > 03&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Polybar  
 
 
-#### ⚙ 1° Como utilizar meus arquivos 
+#### ⚙ Como utilizar meus arquivos 
 > Baixe os arquivos 
 * 1 . [Baixe os arquivos ](https://github.com/jonasbfranco/xubuntu_i3_dotfiles.git) git clone https://github.com/jonasbfranco/xubuntu_i3_dotfiles.git   
-* 2 . Extraia os arquivos em seus respectivos locais
+* 2 . Extraia os arquivos em seus respectivos locais apos ter instalo os passos a seguir.
 
 
-#### ⚙ Instalar Powerline
+
+#### ⚙ 1 Passo - Instalar Powerline
 > https://github.com/powerline/powerline  
 > * $sudo apt install powerline  
 > * $sudo mkdir /usr/local/bin/powerline  
@@ -60,10 +61,13 @@
 > * $sudo echo '. /usr/local/bin/powerline/powerline/bindings/bash/powerline.sh' >> ~/.bashrc  
 
 
-#### ⚙ Prints
+#### ⚙ 2 Passo - Instalar os programas abaixo (opcional)
 
 > * cava
  sudo apt-get install libfftw3-dev libasound2-dev libncursesw5-dev libpulse-dev libtool -y && wget      http://ppa.launchpad.net/tehtotalpwnage/ppa/ubuntu/pool/main/c/cava/cava_0.6.0-0ubuntu3_amd64.deb && sudo dpkg -i cava*
+ [Download Cava](https://github.com/jonasbfranco/xubuntu_i3_dotfiles/raw/master/cava_0.6.0-0ubuntu3_amd64.deb)
+ Para instalar
+sudo dpkg -i cava_0.6.0-0ubuntu3_amd64.deb
 
 > * tty-clock -C7
  sudo apt install tty-clock
@@ -79,24 +83,24 @@
 
 
 
-#### ⚙ Opções extras de instalação
+#### ⚙ 3 Passo - Instalar i3 gaps
 
 > * Instalar i3 gaps
 
 sudo apt install git libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev autoconf libxcb-xrm0 libxcb-xrm-dev automake libxcb-shape0-dev -y && git clone https://www.github.com/Airblader/i3 i3-gaps && cd i3-gaps && autoreconf --force --install && rm -rf build/ && mkdir -p build && cd build/ && ../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers && make && sudo make install
 
 
-> * Instalar polybar
+#### ⚙ 4 Passo - Instalar polybar
 
 sudo apt-get install cmake cmake-data libcairo2-dev libxcb1-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-image0-dev libxcb-randr0-dev libxcb-util0-dev libxcb-xkb-dev pkg-config python-xcbgen xcb-proto libxcb-xrm-dev libasound2-dev libmpdclient-dev libiw-dev libcurl4-openssl-dev libpulse-dev libxcb-composite0-dev xcb libxcb-ewmh2 -y && git clone https://github.com/jaagr/polybar.git && cd polybar && sudo ./build.sh
 
 
-> * Configurar arquivos necessarios
+#### ⚙ 5 Passo - Configurar arquivos necessarios
 
 sudo chown -R $USER:$USER ~/.config/polybar && wget https://gitlab.com/terminalroot/popy/raw/master/launch.sh -O ~/.config/polybar/launch.sh && chmod +x ~/.config/polybar/launch.sh && echo -e 'for_window [class="^.*"] border pixel 0\ngaps inner 10\ngaps outer 2\nexec_always --no-startup-id $HOME/.config/polybar/launch.sh' >> ~/.config/i3/config
 
 
-> * Instalar Albert
+#### ⚙ 6 Passo - Opcinal - EU NAO INSTALEI - Instalar Albert
 
 sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_18.04/ /' > /etc/apt/sources.list.d/home:manuelschneid3r.list" && wget -nv https://download.opensuse.org/repositories/home:manuelschneid3r/xUbuntu_18.04/Release.key -O Release.key && sudo apt-key add - < Release.key && sudo apt-get update && sudo apt-get install albert -y
 
@@ -107,13 +111,13 @@ sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/manuelschn
 * Reinicie o i3: Super + shift + r.
 
 
-> * Instalar Cava
+#### ⚙ 7 Passo - Instalar Cava
 
 sudo apt-get install libfftw3-dev libasound2-dev libncursesw5-dev libpulse-dev libtool -y && wget http://ppa.launchpad.net/tehtotalpwnage/ppa/ubuntu/pool/main/c/cava/cava_0.6.0-0ubuntu3_amd64.deb && sudo dpkg -i cava*
 
 
 
-### Instalando feh
+#### ⚙ 8 Passo - Instalando feh
 
 sudo apt install feh
 
