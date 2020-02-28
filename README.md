@@ -47,7 +47,7 @@
 #### ⚙ Como utilizar meus arquivos 
 > Baixe os arquivos 
 * 1 . [Baixe os arquivos ](https://github.com/jonasbfranco/xubuntu_i3_dotfiles.git) git clone https://github.com/jonasbfranco/xubuntu_i3_dotfiles.git   
-* 2 . Extraia os arquivos em seus respectivos locais apos ter instalo os passos a seguir.
+* 2 . Extraia os arquivos em seus respectivos locais apos ter instalado os passos a seguir.
 
 
 
@@ -65,19 +65,25 @@
 
 > * cava
  sudo apt-get install libfftw3-dev libasound2-dev libncursesw5-dev libpulse-dev libtool -y && wget      http://ppa.launchpad.net/tehtotalpwnage/ppa/ubuntu/pool/main/c/cava/cava_0.6.0-0ubuntu3_amd64.deb && sudo dpkg -i cava*
- [Download Cava](https://github.com/jonasbfranco/xubuntu_i3_dotfiles/raw/master/cava_0.6.0-0ubuntu3_amd64.deb)
+ 
+ [Download Cava](https://github.com/jonasbfranco/xubuntu_i3_dotfiles/raw/master/programas/cava_0.6.0-0ubuntu3_amd64.deb)
+ 
  Para instalar
-sudo dpkg -i cava_0.6.0-0ubuntu3_amd64.deb
+ 
+ sudo dpkg -i cava_0.6.0-0ubuntu3_amd64.deb
 
 > * tty-clock -C7
+
  sudo apt install tty-clock
  
 > * neofetch [Link](https://github.com/dylanaraps/neofetch)
+ 
  sudo apt install neofetch
 
-![Print of Desktop](https://raw.github.com/jonasbfranco/xubuntu_i3_dotfiles/master/desktop.png)
-
 > * Spotify (instalation = $sudo snap install spotify)
+
+
+![Print of Desktop](https://raw.github.com/jonasbfranco/xubuntu_i3_dotfiles/master/desktop.png)
 
 ![Print of Desktop - Spotify](https://raw.github.com/jonasbfranco/xubuntu_i3_dotfiles/master/spotify.png)
 
