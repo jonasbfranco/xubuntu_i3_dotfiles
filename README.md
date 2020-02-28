@@ -64,10 +64,8 @@
 #### ⚙ 2 Passo - Instalar os programas abaixo (opcional)
 
 > * cava
-> * sudo apt-get install libfftw3-dev libasound2-dev libncursesw5-dev libpulse-dev libtool -y && wget  http://ppa.launchpad.net/tehtotalpwnage/ppa/ubuntu/pool/main/c/cava/cava_0.6.0-0ubuntu3_amd64.deb && sudo dpkg -i cava*
-> 
+> * sudo apt-get install libfftw3-dev libasound2-dev libncursesw5-dev libpulse-dev libtool -y && wget  http://ppa.launchpad.net/tehtotalpwnage/ppa/ubuntu/pool/main/c/cava/cava_0.6.0-0ubuntu3_amd64.deb && sudo dpkg -i cava* 
 > * [Download Cava](https://github.com/jonasbfranco/xubuntu_i3_dotfiles/raw/master/programas/cava_0.6.0-0ubuntu3_amd64.deb)
-> 
 > * Para instalar
 > * sudo dpkg -i cava_0.6.0-0ubuntu3_amd64.deb
 
