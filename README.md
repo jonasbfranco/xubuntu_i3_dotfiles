@@ -52,8 +52,6 @@
 
 #### ⚙ Instalar Powerline
 > https://github.com/powerline/powerline  
-
-> * $sudo pacman -S powerline  
 > * $sudo apt install powerline  
 > * $sudo mkdir /usr/local/bin/powerline  
 > * $sudo git clone https://github.com/powerline/powerline.git /usr/local/bin/powerline  
@@ -65,8 +63,13 @@
 #### ⚙ Prints
 
 > * cava
+ sudo apt-get install libfftw3-dev libasound2-dev libncursesw5-dev libpulse-dev libtool -y && wget      http://ppa.launchpad.net/tehtotalpwnage/ppa/ubuntu/pool/main/c/cava/cava_0.6.0-0ubuntu3_amd64.deb && sudo dpkg -i cava*
+
 > * tty-clock -C7
+ sudo apt install tty-clock
+ 
 > * neofetch [Link](https://github.com/dylanaraps/neofetch)
+ sudo apt install neofetch
 
 ![Print of Desktop](https://raw.github.com/jonasbfranco/xubuntu_i3_dotfiles/master/desktop.png)
 
