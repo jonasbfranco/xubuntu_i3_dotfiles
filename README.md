@@ -162,7 +162,7 @@ Além diversas de outras possibilidades bem bacanas que podem ser consultadas da
 > * Procurar Fontes
 > * fc-match -a | grep -i powerline
 >  ou
-> * > * fc-match -a | grep -i awesome  
+> * fc-match -a | grep -i awesome  
 
 
 
