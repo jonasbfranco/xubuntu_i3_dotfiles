@@ -155,7 +155,14 @@ feh -g 640x480 -d -S nome-da-minha-imagem Imagens/ - Procura imagens no diretór
 Além diversas de outras possibilidades bem bacanas que podem ser consultadas dando uma olhada mais detalhada ainda no manual: man feh , se você rodar feh --help ele vai mandar você ver o manual! =)
 
 
+#### ⚙ Comando para Fontes
+> * Atualizar fontes
+> * #fc-cache -fv
 
+> * Procurar Fontes
+> * fc-match -a | grep -i powerline
+>  ou
+> * > * fc-match -a | grep -i awesome  
 
 
 
